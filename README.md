@@ -47,3 +47,15 @@ If you have resources in multiple Availability Zones and they share one NAT gate
 - A NAT gateway receives a network interface. You can pick the private IPv4 address to assign to the interface or have it automatically assigned from the IPv4 address range of the subnet. You can view the network interface for the NAT gateway using the Amazon EC2 console. For more information, see Viewing details about a network interface. You cannot modify the attributes of this network interface.
 
 - You can't route traffic to a NAT gateway through a VPC peering connection. You can't route traffic through a NAT Gateway when traffic arrives over a hybrid connection (Site to Site VPN or Direct Connect) through a Virtual Private Gateway. You can route traffic through a NAT Gateway when traffic arrives over a hybrid connection (Site to Site VPN or Direct Connect) through a transit gateway.
+
+# Work with NAT gateways
+
+You can use the Amazon VPC console to create and manage your NAT gateways.
+
+## Tasks
+1. Control the use of NAT gateways
+2. Create a NAT gateway
+3. Edit secondary IP address associations
+4. Tag a NAT gateway
+5. Delete a NAT gateway
+6. API and CLI overview
